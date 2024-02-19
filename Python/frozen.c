@@ -41,29 +41,29 @@
 #include <stdbool.h>
 
 /* Includes for frozen modules: */
-#include "frozen_modules/importlib._bootstrap.h"
-#include "frozen_modules/importlib._bootstrap_external.h"
-#include "frozen_modules/zipimport.h"
-#include "frozen_modules/abc.h"
-#include "frozen_modules/codecs.h"
-#include "frozen_modules/io.h"
-#include "frozen_modules/_collections_abc.h"
-#include "frozen_modules/_sitebuiltins.h"
-#include "frozen_modules/genericpath.h"
-#include "frozen_modules/ntpath.h"
-#include "frozen_modules/posixpath.h"
-#include "frozen_modules/os.h"
-#include "frozen_modules/site.h"
-#include "frozen_modules/stat.h"
-#include "frozen_modules/importlib.util.h"
-#include "frozen_modules/importlib.machinery.h"
-#include "frozen_modules/runpy.h"
-#include "frozen_modules/__hello__.h"
-#include "frozen_modules/__phello__.h"
-#include "frozen_modules/__phello__.ham.h"
-#include "frozen_modules/__phello__.ham.eggs.h"
-#include "frozen_modules/__phello__.spam.h"
-#include "frozen_modules/frozen_only.h"
+#include PYTHON_FROZEN_MODULE_IMPORTLIB_BOOTSTRAP
+#include PYTHON_FROZEN_MODULE_IMPORTLIB_BOOTSTRAP_EXTERNAL
+#include PYTHON_FROZEN_MODULE_ZIPIMPORT
+#include PYTHON_FROZEN_MODULE_ABC
+#include PYTHON_FROZEN_MODULE_CODECS
+#include PYTHON_FROZEN_MODULE_IO
+#include PYTHON_FROZEN_MODULE__COLLECTIONS_ABC
+#include PYTHON_FROZEN_MODULE__SITEBUILTINS
+#include PYTHON_FROZEN_MODULE_GENERICPATH
+#include PYTHON_FROZEN_MODULE_NTPATH
+#include PYTHON_FROZEN_MODULE_POSIXPATH
+#include PYTHON_FROZEN_MODULE_OS
+#include PYTHON_FROZEN_MODULE_SITE
+#include PYTHON_FROZEN_MODULE_STAT
+#include PYTHON_FROZEN_MODULE_IMPORTLIB_UTIL
+#include PYTHON_FROZEN_MODULE_IMPORTLIB_MACHINERY
+#include PYTHON_FROZEN_MODULE_RUNPY
+#include PYTHON_FROZEN_MODULE___HELLO__
+#include PYTHON_FROZEN_MODULE___PHELLO__
+#include PYTHON_FROZEN_MODULE___PHELLO__HAM
+#include PYTHON_FROZEN_MODULE___PHELLO__HAM_EGGS
+#include PYTHON_FROZEN_MODULE___PHELLO__SPAM
+#include PYTHON_FROZEN_MODULE_FROZEN_ONLY
 /* End includes */
 
 #define GET_CODE(name) _Py_get_##name##_toplevel

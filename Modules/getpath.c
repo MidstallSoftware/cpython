@@ -19,7 +19,7 @@
 #endif
 
 /* Reference the precompiled getpath.py */
-#include "../Python/frozen_modules/getpath.h"
+#include PYTHON_FROZEN_MODULE_GETPATH
 
 #if (!defined(PREFIX) || !defined(EXEC_PREFIX) \
         || !defined(VERSION) || !defined(VPATH) \

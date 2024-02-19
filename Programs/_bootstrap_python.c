@@ -10,9 +10,9 @@
 #include "pycore_import.h"
 
 /* Includes for frozen modules: */
-#include "Python/frozen_modules/importlib._bootstrap.h"
-#include "Python/frozen_modules/importlib._bootstrap_external.h"
-#include "Python/frozen_modules/zipimport.h"
+#include PYTHON_FROZEN_MODULE_IMPORTLIB_BOOTSTRAP
+#include PYTHON_FROZEN_MODULE_IMPORTLIB_BOOTSTRAP_EXTERNAL
+#include PYTHON_FROZEN_MODULE_ZIPIMPORT
 /* End includes */
 
 uint32_t _Py_next_func_version = 1;
